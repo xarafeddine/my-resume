@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: rgb(255, 255, 255);
+  font-family: "Ubuntu", sans-serif;
+}
+body a:link,
+body a:visited {
+  text-decoration: none;
+}
+
+.resumeCanvas {
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0.3in;
+  width: 8.5in;
+  height: 12in;
+  /* background-color: rgb(250, 255, 255); */
+  /* box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.7); */
+}
+
+/* .gridParent {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) 255px;
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+} */
+
+
